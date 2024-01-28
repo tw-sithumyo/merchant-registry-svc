@@ -234,10 +234,10 @@ workflows:
     jobs:
       - setup:
           context: org-global
-      - build:
-          context: org-global
-          requires:
-            - setup
+      # - build:
+      #     context: org-global
+      #     requires:
+      #       - setup
 
       # - approve_dep_check:
       #     type: approval
