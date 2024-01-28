@@ -1,5 +1,5 @@
 {
-  "name": "acquirer-backend",
+  "name": "merchant-acquirer-backend",
   "version": "0.1.0",
   "description": "Merchant Acquirer Backend",
   "main": "src/index.ts",
