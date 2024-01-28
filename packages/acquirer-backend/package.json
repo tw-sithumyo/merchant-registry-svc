@@ -1,5 +1,6 @@
 {
-  "name": "twstm/merchant-acquirer-backend",
+  "name": "@twstm/merchant-acquirer-backend",
+  "private": true,
   "version": "0.1.0",
   "description": "Merchant Acquirer Backend",
   "main": "src/index.ts",
