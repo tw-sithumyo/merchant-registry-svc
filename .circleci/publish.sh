@@ -144,7 +144,7 @@ printHeader "Phase 5 - Pushing single combined commit and tag to git"
 git add -A
 # Commit with a combined message
 COMMIT_MESSAGE="[ci skip] CI/CD auto commit for published packages\n${CHANGES_DESCRIPTION}"
-git commit -m "$COMMIT_MESSAGE"
+git commit --no-verify -m "$COMMIT_MESSAGE"
 
 # Create a single tag. Example uses date and time for uniqueness.
 TAG_NAME="${TAG_NAME_PARTS%_}" # Removes the trailing underscore
