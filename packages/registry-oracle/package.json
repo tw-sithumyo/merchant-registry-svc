@@ -1,6 +1,6 @@
 {
   "name": "@twstm/merchant-registry-oracle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Merchant Acquirer Backend",
   "main": "src/index.ts",
   "mojaloop": {

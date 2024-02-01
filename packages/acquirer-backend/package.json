@@ -1,7 +1,7 @@
 {
   "name": "@twstm/merchant-acquirer-backend",
   "private": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Merchant Acquirer Backend",
   "main": "src/index.ts",
   "mojaloop": {
