@@ -1,8 +1,11 @@
 {
-  "name": "registry-oracle",
-  "version": "0.1.0",
+  "name": "@twstm/merchant-registry-oracle",
+  "version": "0.1.2",
   "description": "Merchant Acquirer Backend",
   "main": "src/index.ts",
+  "mojaloop": {
+    "publish_to_dockerhub": true
+  },
   "scripts": {
     "start": "nodemon --watch 'src/**/*.ts' --watch '.env*' --exec 'ts-node' src/index.ts",
     "build": "tsc",

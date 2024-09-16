@@ -1,9 +1,12 @@
 {
-  "name": "acquirer-frontend",
+  "name": "@twstm/merchant-acquirer-frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.2",
   "type": "module",
   "license": "ISC",
+  "mojaloop": {
+    "publish_to_dockerhub": true
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
